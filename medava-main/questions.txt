@@ -1,0 +1,10 @@
+1. Everything in java has to be a class. Is that why to print things to the console we have to say System.out.print? In this case, would that make System the class, out a subclass, and print a member function, since we can’t just have global functions?
+
+2. When we use the keyword super to invoke the super types functionality, are we always just invoking the supertypes constructor? Or is that specific to this situation based on the parameters? If not, how do we know what functionality we are calling on? Could we have multiple constructors with different parameters in the super type and invoke them differently based on the arguments we pass through super?
+
+
+3.  If every class inherits from the Object class, does that make object an abstract type? Like, can you declare an instance of just an object? Also, what methods are contained in object? Or is it just like a blank template? 
+
+4.  I don’t think I understand what an interface is at all. I understand that it is a sort of replacement for a type, but I really don’t understand why. Like, what is it actually doing? We say medicine implements shippable, but what is this ‘implementation’ actually doing?
+
+5. The primitive double versus class Double sort of functionality seems redundant. I understand that we have to use a class Double so we can use getMethod, but why wouldn’t this feature just be defined so it could work on a regular data type? Is there more information in Double that actually matters? Why? Why would they make it harder to understand? Also, what method is being looked up in Double?
